@@ -8,8 +8,37 @@ function increment(){
     countEl.innerText = count
 }
 function save(){
-    let countStr = count + "-"
-    // console.log(count)
-    // saveEl = innerText += countStr
+    let countStr = count + " - "
     saveEl.textContent += countStr
+    countEl.textContent = 0
+    count = 0
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       
